@@ -1,9 +1,8 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Link } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
@@ -23,9 +22,11 @@ const IndexPage = () => (
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
       <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
+      <Link to="/using-dsg">Go to "Using DSG"</Link> <br />
+      <Link to="/about">About page</Link>
     </p>
   </Layout>
 )
 
 export default IndexPage
+ 

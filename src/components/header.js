@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
+        maxWidth: '1250px',
         padding: `1.45rem 1.0875rem`,
       }}
     >
@@ -26,7 +26,14 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h1>
+       </h1>
+       <div style={{ display:'flex' }}>
+       <Link to="/about">Home</Link>
+        <Link to="/about">Service</Link>
+        <Link to="/about">About</Link>
+        <Link to="/about">Contact us</Link>
+       </div>
+       
     </div>
   </header>
 )
